@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="container">
+            <div class="logo">My Portofolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button id="dark-mode-btn" class="dark-mode-btn">🌙</button>
+        </div>
+    </nav>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                <h1>
+                    <span>Contact</span> Me
+                </h1>
+                <p>
+                    Have a project, collaboration, or just want to say hello?
+                    Feel free to get in touch with me!
+                </p>
+                <div class="contact-person">
+                    <div class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>gendistudio@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">☎</span>
+                        <span>+62 813-052-0070</span>
+                    </div>
+            </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form-box">
+            <form id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Your name"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Your email"
+                        >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+                <p id="form-message"></p>
+            </form>
+        </div>
+    </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portofolio</p>
+    </footer>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
