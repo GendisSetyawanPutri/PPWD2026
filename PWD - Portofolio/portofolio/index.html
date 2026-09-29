@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav>
+        <div class="container">
+            <div class="logo">My Portofolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Tombol Dark Mode -->
+            <button id="dark-mode-btn" class="dark-mode-btn">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Helo, I'm <span id="typing-text"></span></h1>
+                <p>Information System Student</p>
+                <a href="contact.html" class="btn">Contact Me
+                </a>
+            </div>
+              <!-- Foto -->
+            <div class="hero-image">
+                <img
+                    src="https://gendistudio.wordpress.com/wp-content/uploads/2026/09/profile.png"
+                    alt="Foto Gendis"
+            >
+        </div>
+        </div>
+    </section>
+
+    <!-- Proyek Saya -->
+    <section class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid" id="project-grid">
+                <!-- Data proyek akan diisi otomatis oleh JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="project-modal">
+        <div class="modal-content">
+            <button id="close-modal" class="close-modal">&times;</button>
+            <img id="modal-image" src="" alt="Project Preview"> 
+            <div class="modal-info">
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portofolio</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
